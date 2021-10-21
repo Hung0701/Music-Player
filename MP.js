@@ -25,7 +25,7 @@
         isRandom: false,
         isRepeat: false,
         config: {},
-        config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
+//         config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
         songs: [{
                 name: "Cơn Mưa Ngang Qua",
                 singer: "Sơn Tùng M-TP",
@@ -425,7 +425,7 @@
         ],
         setConfig: function(key, value) {
             this.config[key] = value;
-            localStorage.setItem(PlAYER_STORAGE_KEY, JSON.stringify(this.config));
+//             localStorage.setItem(PlAYER_STORAGE_KEY, JSON.stringify(this.config));
         },
         render: function() {
             const htmls = this.songs.map((item, index) => {
