@@ -416,12 +416,12 @@
                 path: "./assets/Music/The Strongest.mp3",
                 image: "./assets/Img/The Strongest.jpg"
             },
-            // {
-            //     name: "",
-            //     singer: "",
-            //     path: "./assets/Music/.mp3",
-            //     image: "./assets/Img/.jpg"
-            // },
+            {
+                name: "Pomodoro",
+                singer: "NaN",
+                path: "./assets/Music/Pomodoro.mp3",
+                image: "./assets/Img/Pomodoro.jpg"
+            },
         ],
         setConfig: function(key, value) {
             this.config[key] = value;
