@@ -27,6 +27,12 @@
         config: {},
         config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
         songs: [{
+                name: "Pomodoro",
+                singer: "NaN",
+                path: "./assets/Music/Pomodoro.mp3",
+                image: "./assets/Img/Pomodoro.jpg"
+            },
+            {
                 name: "Cơn Mưa Ngang Qua",
                 singer: "Sơn Tùng M-TP",
                 path: "./assets/Music/Cơn Mưa Ngang Qua.mp3",
@@ -417,10 +423,10 @@
                 image: "./assets/Img/The Strongest.jpg"
             },
             {
-                name: "Pomodoro",
-                singer: "NaN",
-                path: "./assets/Music/Pomodoro.mp3",
-                image: "./assets/Img/Pomodoro.jpg"
+                name: "Unstoppable",
+                singer: "Sia",
+                path: "./assets/Music/Unstoppable.mp3",
+                image: "./assets/Img/Unstoppable.jpg"
             },
         ],
         setConfig: function(key, value) {
