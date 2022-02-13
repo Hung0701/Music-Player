@@ -309,6 +309,12 @@
                 image: "./assets/Img/Colors.jpg"
             },
             {
+                name: "On & On",
+                singer: "Cartoon",
+                path: "./assets/Music/On & On.mp3",
+                image: "./assets/Img/On & On.jpg"
+            },
+            {
                 name: "Nevada",
                 singer: "Vicetone",
                 path: "./assets/Music/Nevada.mp3",
