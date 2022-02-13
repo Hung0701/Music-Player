@@ -315,6 +315,12 @@
                 image: "./assets/Img/On & On.jpg"
             },
             {
+                name: "Fearless Pt. II",
+                singer: "Lost Sky",
+                path: "./assets/Music/Fearless Pt. II.mp3",
+                image: "./assets/Img/Fearless Pt. II.jpg"
+            },
+            {
                 name: "Nevada",
                 singer: "Vicetone",
                 path: "./assets/Music/Nevada.mp3",
