@@ -345,6 +345,12 @@
                 image: "./assets/Img/Blank.jpg"
             },
             {
+                name: "Unstoppable",
+                singer: "Sia",
+                path: "./assets/Music/Unstoppable.mp3",
+                image: "./assets/Img/Unstoppable.jpg"
+            },
+            {
                 name: "Gurenge(KNY)",
                 singer: "Lisa",
                 path: "./assets/Music/Gurenge.mp3",
@@ -435,11 +441,23 @@
                 image: "./assets/Img/The Strongest.jpg"
             },
             {
-                name: "Unstoppable",
-                singer: "Sia",
-                path: "./assets/Music/Unstoppable.mp3",
-                image: "./assets/Img/Unstoppable.jpg"
+                name: "Doraemon No Uta",
+                singer: "Satoko Yamano",
+                path: "./assets/Music/Doraemon No Uta.mp3",
+                image: "./assets/Img/Doraemon No Uta.jpg"
             },
+            {
+                name: "Yume Wo Kanaete Doraemon",
+                singer: "MAO",
+                path: "./assets/Music/Yume Wo Kanaete Doraemon.mp3",
+                image: "./assets/Img/Yume Wo Kanaete Doraemon.jpg"
+            },
+//             {
+//                 name: "",
+//                 singer: "",
+//                 path: "./assets/Music/.mp3",
+//                 image: "./assets/Img/.jpg"
+//             },
         ],
         setConfig: function(key, value) {
             this.config[key] = value;
